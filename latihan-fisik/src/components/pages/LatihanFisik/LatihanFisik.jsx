@@ -10,7 +10,7 @@ const LatihanFisik = () => {
   return (
     <>
       <Navbar />
-      <main className="flex flex-col mt-[120px] w-full items-center mb-[100px]">
+      <main className="flex flex-col mt-[60px] w-full items-center mb-[100px]">
         <HeroSection />
         <HowImportantSection />
         <PhysicalTrainingGoalsSection />

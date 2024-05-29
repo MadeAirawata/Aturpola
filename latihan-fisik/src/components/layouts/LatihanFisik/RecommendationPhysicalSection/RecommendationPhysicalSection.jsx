@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const RecommendationPhysicalSection = () => {
   return (
     <section className="mt-10 w-[1136px] flex flex-col gap-[30px]">
@@ -5,7 +7,7 @@ const RecommendationPhysicalSection = () => {
         Rekomendasi Latihan Fisik
       </h1>
       <div className="flex gap-[27px]">
-        <div className="w-[264px] h-[286px] rounded-[10px] flex flex-col overflow-hidden shadow-300 cursor-pointer active:scale-90 transition-all duration-300 hover:-translate-y-4">
+        <div className="w-[264px] h-[286px] rounded-[10px] flex flex-col overflow-hidden shadow-300">
           <div className="w-full h-[125px] relative">
             <img
               src="/images/rekomendasi-1.png"
@@ -46,7 +48,7 @@ const RecommendationPhysicalSection = () => {
             </div>
           </div>
         </div>
-        <div className="w-[264px] h-[286px] rounded-[10px] flex flex-col overflow-hidden shadow-300 cursor-pointer active:scale-90 transition-all duration-300 hover:-translate-y-4">
+        <div className="w-[264px] h-[286px] rounded-[10px] flex flex-col overflow-hidden shadow-300">
           <div className="w-full h-[125px] relative">
             <img
               src="/images/rekomendasi-2.png"
@@ -87,7 +89,7 @@ const RecommendationPhysicalSection = () => {
             </div>
           </div>
         </div>
-        <div className="w-[264px] h-[286px] rounded-[10px] flex flex-col overflow-hidden shadow-300 cursor-pointer active:scale-90 transition-all duration-300 hover:-translate-y-4">
+        <div className="w-[264px] h-[286px] rounded-[10px] flex flex-col overflow-hidden shadow-300">
           <div className="w-full h-[125px] relative">
             <img
               src="/images/rekomendasi-3.png"
@@ -129,7 +131,7 @@ const RecommendationPhysicalSection = () => {
             </div>
           </div>
         </div>
-        <div className="w-[264px] h-[286px] rounded-[10px] flex flex-col overflow-hidden shadow-300 cursor-pointer active:scale-90 transition-all duration-300 hover:-translate-y-4">
+        <div className="w-[264px] h-[286px] rounded-[10px] flex flex-col overflow-hidden shadow-300">
           <div className="w-full h-[125px] relative">
             <img
               src="/images/rekomendasi-4.png"
@@ -171,11 +173,12 @@ const RecommendationPhysicalSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-end w-full mt-0">
-      <a href="#" className="text-[#FF9800] underline hover:font-bold transition-all duration-300">
+      <Link
+        to="/rekomendasi-latihan-fisik"
+        className="text-[#FF9800] underline self-end"
+      >
         Lebih Banyak Rekomendasi
-      </a>
-    </div>
+      </Link>
     </section>
   );
 };

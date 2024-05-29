@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const RecommendationGymSection = () => {
   return (
     <section className="mt-10 w-[1136px] flex flex-col gap-[30px]">
@@ -157,11 +159,9 @@ const RecommendationGymSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-end w-full mt-0">
-      <a href="#" className="text-[#FF9800] underline hover:font-bold transition-all duration-300">
-        Lebih Banyak Tempat Gym
-      </a>
-    </div>
+      <Link to="" className="text-[#FF9800] underline self-end">
+        Lebih Banyak Rekomendasi
+      </Link>
     </section>
   );
 };

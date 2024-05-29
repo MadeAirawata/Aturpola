@@ -1,18 +1,23 @@
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
   return (
-    <nav className="px-[45px] w-full h-20 flex items-center text-black justify-between bg-[#FFF0DA] fixed top-0 z-50">
+    <nav className="px-[45px] w-full h-20 flex items-center text-black justify-between">
       <img
         src="/images/logo-aturpola.png"
         alt=""
         className="w-fit h-[66px] scale-75 object-cover object-center"
       />
-      <div className="font-sans flex items-center gap-10">
+      <div className="flex items-center gap-10 font-sans">
         <a className="text-[#2C7865] font-medium hover:text-[#BA6F00] cursor-pointer">
           Makanan Sehat
         </a>
-        <a className="text-[#2C7865] font-medium hover:text-[#BA6F00] cursor-pointer">
+        <Link
+          to="/latihan-fisik"
+          className="text-[#2C7865] font-medium hover:text-[#BA6F00] cursor-pointer"
+        >
           Latihan Fisik
-        </a>
+        </Link>
         <a className="text-[#2C7865] font-medium hover:text-[#BA6F00] cursor-pointer">
           Komunitas
         </a>
