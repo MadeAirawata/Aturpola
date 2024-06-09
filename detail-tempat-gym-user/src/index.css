@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Poppins', sans-serif;
+  height: auto;
+  margin: 0;
+}
+
+.navbar {
+  margin-right: -160px;
+  background-color: #fff0da;
+  font-weight: 500;
+  width: auto;
+  margin-top: -33px;
+  margin-left: -180px;
+  height: 60px;
+  padding-top: 20px;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+}
+
+a {
+  margin: 10px; /* Adds 10 pixels of margin around the link */
+  font-size: small;
+  color: #2c7865;
+}
+
+.user {
+  margin-top: -56px;
+  margin-left: 1460px;
+}
+
+.logo-landingpage-guest {
+  margin-top: -60px;
+  width: 8%;
+  margin-left: 50px;
+}
+
+.footer {
+  margin-top: 60px;
+  margin-left: -150px;
+  width: 1550px;
+  background-color: #fff0da;
+  padding: 0;
+  height: 300px;
+}
+
+.footer img {
+  padding-top: 50px;
+  margin-top: 40px;
+  margin-left: 90px;
+}
+
+.footer-landingpageguest {
+  display: flex;
+  margin-top: 20px;
+  height: 420px;
+  width: 1545px;
+  margin-left: -170px;
+  background-color: #fff0da;
+  margin-bottom: -40px;
+}
+
+.logo-footer-landingpageguest {
+  margin-left: 100px;
+  padding-top: 40px;
+  width: 15%;
+}
+
+.logo-footer-landingpageguest h1 {
+  width: max-content;
+  margin-top: 20px;
+  text-align: left;
+  font-size: small;
+  font-weight: 700;
+  color: #20584a;
+}
+
+.logo-footer-landingpageguest p {
+  margin-top: 20px;
+  text-align: left;
+  font-size: small;
+  color: #20584a;
+  font-weight: 400;
+}
+
+.akuingin-footer-landingpageguest {
+  padding-top: 60px;
+  margin-left: 300px;
+  color: #20584a;
+  text-align: left;
+  font-size: large;
+  font-weight: 600;
+}
+
+.akuingin-footer-landingpageguest p {
+  margin-left: 10px;
+  color: #20584a;
+  text-align: left;
+  font-size: large;
+  font-weight: 400;
+  width: fit-content;
+  display: block;
+}
+
+.akuingin-footer-landingpageguest p a {
+  display: inline-block; /* Menyebabkan elemen untuk berperilaku seperti blok di dalam inline */
+  position: relative; /* Agar ::before terposisi relatif terhadap elemen ini */
+}
+
+.akuingin-footer-landingpageguest p a::before {
+  content: '•'; /* Simbol buletan */
+  margin-right: 10px; /* Jarak antara buletan dan teks */
+  color: #20584a; /* Warna buletan, bisa disesuaikan */
+  position: absolute; /* Posisi absolut relatif terhadap elemen a */
+  left: -15px; /* Penyesuaian posisi buletan */
+}
+
+.kontak-landingpageguest {
+  padding-top: 39px;
+  margin-left: 150px;
+  color: #20584a;
+  text-align: left;
+  font-size: large;
+  font-weight: 600;
+}
+
+.kontak-landingpageguest h1 {
+  width: max-content;
+  margin-top: 20px;
+  text-align: left;
+
+  color: #20584a;
+  font-size: large;
+  font-weight: 600;
+}
+
+.kontak-landingpageguest p {
+  width: 50%;
+  padding-top: 10px;
+  text-align: left;
+  font-size: small;
+  color: #20584a;
+  font-weight: 400;
+}
+
+.mediasosial-landingpageguest {
+  width: 13%;
+  padding-top: 55px;
+  margin-left: -70px;
+  color: #20584a;
+  text-align: left;
+  font-size: large;
+  font-weight: 600;
+}
+
+.mediasosial-landingpageguest img {
+  margin-top: 20px;
+  width: 70%;
+  padding-bottom: 50px;
+}
+
+.mediasosial-landingpageguest p {
+  width: max-content;
+  padding-top: 10px;
+  text-align: left;
+  font-size: small;
+  color: #20584a;
+  font-weight: 400;
+}
+
+.information-gymuser {
+  margin-top: 50px;
+  text-align: left;
+  padding-bottom: 100px;
+}
+
+.information-gymuser a {
+  margin: 5px;
+  color: black;
+  font-size: medium;
+  font-weight: 400;
+}
+
+.information-gymuser h1 {
+  padding-top: 20px;
+  margin: 5px;
+  color: #2c7865;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.information-gymuser img {
+  border-radius: 20px;
+}
+
+.information-gymuser-container {
+  display: flex;
+}
+
+.information-gymuser-container h1 {
+  font-size: large;
+  color: #ff9800;
+  margin-left: 40px;
+  margin-top: -20px;
+  font-weight: 600;
+  width: 90%;
+}
+
+.information-gymuser-container p {
+  margin-top: 50px;
+  margin-left: -200px;
+  font-weight: 400;
+}
+
+.information-gymcard {
+  margin-right: 80px;
+  margin-top: 80px;
+  background-color: antiquewhite;
+  height: 500px;
+  width: 530px;
+  border-radius: 20px;
+}
+
+.information-gymcard h1 {
+  margin-top: -5px;
+}
+
+.information-gymcard p {
+  padding-top: 10px;
+  width: 60%;
+  font-size: small;
+  font-weight: 500;
+  margin-top: -5px;
+  margin-left: 40px;
+}
+
+.instruktur-gymcard {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.instruktur-gymcard h1 {
+  font-size: medium;
+  color: #2c7865;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+.logo-instruktur-gym {
+  margin-top: -170px;
+  margin-left: 30px;
+}
+
+.information-gymcard2 {
+  margin-right: 80px;
+  margin-top: 80px;
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  width: 530px;
+  border-radius: 20px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.information-gymcard2 h1 {
+  width: 65%;
+  color: #2c7865;
+  font-size: xx-large;
+  font-weight: 600;
+  padding-top: 100px;
+  text-align: left;
+}
+
+.information-gymcard2 p {
+  margin-left: 45px;
+  margin-top: 15px;
+  width: 70%;
+}
+
+.button-gymcard2 {
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 45px;
+  background-color: #ff9800;
+  width: 30%;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.button-gymcard2:hover {
+  background-color: #875100;
+}

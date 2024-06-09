@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Poppins', sans-serif;
+  height: auto;
+  margin: 0;
+}
+
+.navbar {
+  margin-right: -160px;
+  background-color: #fff0da;
+  font-weight: 500;
+  width: auto;
+  margin-top: -33px;
+  margin-left: -180px;
+  height: 60px;
+  padding-top: 20px;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+}
+
+a {
+  margin: 10px; /* Adds 10 pixels of margin around the link */
+  font-size: small;
+  color: #2c7865;
+}
+
+.user {
+  margin-top: -25px;
+  margin-left: 1400px;
+}
+
+.logo-landingpage-guest {
+  margin-top: -31px;
+  width: 8%;
+  margin-left: 50px;
+}
+
+.herosection-gym {
+  margin-top: 70px;
+  background-color: #ffffff;
+  height: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Opsional: Untuk sudut yang melengkung */
+}
+
+.herosection-gym h1 {
+  margin-left: 70px;
+  margin-top: -200px;
+  color: orange;
+  font-size: xx-large;
+  font-weight: 600;
+  width: 30%;
+  text-align: left;
+}
+
+.herosection-gym p {
+  margin-top: 130px;
+  margin-left: 40px;
+  text-align: left;
+  width: 60%;
+  font-weight: 500;
+}
+
+.search-gym {
+  margin-top: -90px;
+}
+
+.search-gym p {
+  margin-left: 700px;
+}
+
+.search-input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%;
+  max-width: 250px;
+  font-size: 16px;
+  margin-left: 900px;
+}
+
+.rekomendasi-gym {
+  margin-top: 70px;
+}
+
+.rekomendasi-gym {
+  margin-top: 70px;
+  font-size: xx-large;
+  font-weight: 700;
+  text-align: left;
+  color: #20583c;
+}
+
+.card-gym {
+  padding-bottom: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-right: 53px;
+  height: 350px;
+  width: 250px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-gym h1 {
+  text-align: left;
+  color: #2c7865;
+  font-weight: 600;
+  font-size: medium;
+  margin-left: 20px;
+}
+
+.card-gym p {
+  font-size: x-small;
+  text-align: left;
+  width: 60%;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.rekomendasi-gym-container {
+  background-color: #ffffff;
+}
+
+.card-gym-instruktur {
+  margin-left: 10px;
+  margin-top: 70px;
+}
+
+.card-gym-instruktur h2 {
+  margin-top: -70px;
+  font-size: small;
+  margin-left: 100px;
+  font-weight: 600;
+  color: #454545;
+}
+
+.card-gym img {
+  border-radius: 8px;
+  margin-bottom: 45px;
+}
+
+.showing-gym {
+  font-size: small;
+  margin-top: 30px;
+  text-align: left;
+  color: #797a7c;
+}
+
+.showing-gym {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  margin-top: 60px;
+  margin-left: -150px;
+  width: 1550px;
+  background-color: #fff0da;
+  padding: 0;
+  height: 300px;
+}
+
+.footer img {
+  padding-top: 50px;
+  margin-top: 40px;
+  margin-left: 90px;
+}
+
+.footer-landingpageguest {
+  display: flex;
+  margin-top: 20px;
+  height: 420px;
+  width: 1526px;
+  margin-left: -150px;
+  background-color: #fff0da;
+  margin-bottom: -40px;
+}
+
+.logo-footer-landingpageguest {
+  margin-left: 100px;
+  padding-top: 40px;
+  width: 15%;
+}
+
+.logo-footer-landingpageguest h1 {
+  width: max-content;
+  margin-top: 20px;
+  text-align: left;
+  font-size: small;
+  font-weight: 700;
+  color: #20584a;
+}
+
+.logo-footer-landingpageguest p {
+  margin-top: 20px;
+  text-align: left;
+  font-size: small;
+  color: #20584a;
+  font-weight: 400;
+}
+
+.akuingin-footer-landingpageguest {
+  padding-top: 60px;
+  margin-left: 300px;
+  color: #20584a;
+  text-align: left;
+  font-size: large;
+  font-weight: 600;
+}
+
+.akuingin-footer-landingpageguest p {
+  margin-left: 10px;
+  color: #20584a;
+  text-align: left;
+  font-size: large;
+  font-weight: 400;
+  width: fit-content;
+  display: block;
+}
+
+.akuingin-footer-landingpageguest p a {
+  display: inline-block; /* Menyebabkan elemen untuk berperilaku seperti blok di dalam inline */
+  position: relative; /* Agar ::before terposisi relatif terhadap elemen ini */
+}
+
+.akuingin-footer-landingpageguest p a::before {
+  content: '•'; /* Simbol buletan */
+  margin-right: 10px; /* Jarak antara buletan dan teks */
+  color: #20584a; /* Warna buletan, bisa disesuaikan */
+  position: absolute; /* Posisi absolut relatif terhadap elemen a */
+  left: -15px; /* Penyesuaian posisi buletan */
+}
+
+.kontak-landingpageguest {
+  padding-top: 39px;
+  margin-left: 150px;
+  color: #20584a;
+  text-align: left;
+  font-size: large;
+  font-weight: 600;
+}
+
+.kontak-landingpageguest h1 {
+  width: max-content;
+  margin-top: 20px;
+  text-align: left;
+
+  color: #20584a;
+  font-size: large;
+  font-weight: 600;
+}
+
+.kontak-landingpageguest p {
+  width: 50%;
+  padding-top: 10px;
+  text-align: left;
+  font-size: small;
+  color: #20584a;
+  font-weight: 400;
+}
+
+.mediasosial-landingpageguest {
+  width: 13%;
+  padding-top: 55px;
+  margin-left: -70px;
+  color: #20584a;
+  text-align: left;
+  font-size: large;
+  font-weight: 600;
+}
+
+.mediasosial-landingpageguest img {
+  margin-top: 20px;
+  width: 70%;
+  padding-bottom: 50px;
+}
+
+.mediasosial-landingpageguest p {
+  width: max-content;
+  padding-top: 10px;
+  text-align: left;
+  font-size: small;
+  color: #20584a;
+  font-weight: 400;
+}
