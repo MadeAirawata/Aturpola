@@ -3,14 +3,14 @@ import {
   BrowserRouter as Router,
   Routes,
   useParams,
-} from "react-router-dom";
-import "./App.css";
-import KomunitasUser from "./pages/KomunitasUser";
-import DetailPost from "./pages/DetailPost";
-import KomunitasGuest from "./pages/KomunitasGuest";
+} from 'react-router-dom'
+import './App.css'
+import KomunitasUser from './pages/KomunitasUser'
+import DetailPost from './pages/DetailPost'
+import KomunitasGuest from './pages/KomunitasGuest'
 
 function App() {
-  const { param } = useParams();
+  const {param} = useParams()
 
   return (
     <Router>
@@ -20,7 +20,7 @@ function App() {
         <Route path="detail-post/:name" element={<DetailPost />} />
       </Routes>
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App

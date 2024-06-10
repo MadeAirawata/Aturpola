@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import logooo from './Images/logooo.png';
-import user from './Images/user.png';
-import cardgym6 from './Images/cardgym6.png';
-import tersediainstruktur from './Images/tersediainstruktur.png';
+import React, {useState} from 'react'
+import logooo from './Images/logooo.png'
+import user from './Images/user.png'
+import cardgym6 from './Images/cardgym6.png'
+import tersediainstruktur from './Images/tersediainstruktur.png'
 
-import iconmediasosial from './Images/iconmediasosial.png';
+import iconmediasosial from './Images/iconmediasosial.png'
 
 const Detailgymuser = () => {
   return (
@@ -32,14 +32,22 @@ const Detailgymuser = () => {
           <img src={cardgym6}></img>
           <h1>Deskripsi Gym:</h1>
           <p>
-            Elite Fitness Center merupakan pusat kebugaran yang lengkap dengan berbagai fasilitas modern dan instruktur berkualitas. Terletak di pusat kota Surabaya, gym ini menyediakan berbagai macam peralatan fitness dan program pelatihan
-            untuk membantu Anda mencapai tujuan kesehatan dan kebugaran Anda. Dengan suasana yang nyaman dan ramah, Elite Fitness Center adalah tempat yang sempurna untuk meningkatkan kebugaran Anda.
+            Elite Fitness Center merupakan pusat kebugaran yang lengkap dengan
+            berbagai fasilitas modern dan instruktur berkualitas. Terletak di
+            pusat kota Surabaya, gym ini menyediakan berbagai macam peralatan
+            fitness dan program pelatihan untuk membantu Anda mencapai tujuan
+            kesehatan dan kebugaran Anda. Dengan suasana yang nyaman dan ramah,
+            Elite Fitness Center adalah tempat yang sempurna untuk meningkatkan
+            kebugaran Anda.
           </p>
         </div>
         <div className="information-gymuser-container">
           <div className="information-gymcard">
             <h1>Alamat Gym:</h1>
-            <p>Jl. Raya Darmo Permai III No. 45, Surabaya, Jawa Timur Kode Pos: 60241</p>
+            <p>
+              Jl. Raya Darmo Permai III No. 45, Surabaya, Jawa Timur Kode Pos:
+              60241
+            </p>
             <h1>Fasilitas Gym:</h1>
             <p>-Area latihan bebas</p>
             <p>-Peralatan kardio dan kekuatan terbaru</p>
@@ -51,8 +59,10 @@ const Detailgymuser = () => {
               <h1>Tersedia Instruktur</h1>
             </div>
             <p>
-              Instruktur kami adalah para profesional yang berpengalaman dan berdedikasi dalam membantu Anda mencapai potensi kebugaran Anda yang terbaik. Mereka siap memberikan bimbingan dan dukungan untuk membantu Anda meraih hasil yang
-              diinginkan.
+              Instruktur kami adalah para profesional yang berpengalaman dan
+              berdedikasi dalam membantu Anda mencapai potensi kebugaran Anda
+              yang terbaik. Mereka siap memberikan bimbingan dan dukungan untuk
+              membantu Anda meraih hasil yang diinginkan.
             </p>
             <div className="logo-instruktur-gym">
               <img width="8%" src={tersediainstruktur}></img>
@@ -60,7 +70,10 @@ const Detailgymuser = () => {
           </div>
           <div className="information-gymcard2">
             <h1>Mulailah Perjalanan Kebugaran Anda di Elite Fitness Center!</h1>
-            <p>Jadwalkan sesi latihan Anda sekarang dan mulailah perjalanan Anda menuju tubuh yang sehat dan bugar di Elite Fitness Center!</p>
+            <p>
+              Jadwalkan sesi latihan Anda sekarang dan mulailah perjalanan Anda
+              menuju tubuh yang sehat dan bugar di Elite Fitness Center!
+            </p>
             <button className="button-gymcard2">Pesan Disini</button>
           </div>
         </div>
@@ -69,7 +82,10 @@ const Detailgymuser = () => {
         <div className="logo-footer-landingpageguest">
           <img src={logooo} alt="Logo"></img>
           <h1>Buat Hidup Sehat Jadi Kebiasaan Tanpa Drama!</h1>
-          <p>Optimalkan performa hidupmu dengan rekomendasi gizi dan rencana latihan yang disesuaikan.</p>
+          <p>
+            Optimalkan performa hidupmu dengan rekomendasi gizi dan rencana
+            latihan yang disesuaikan.
+          </p>
         </div>
         <div className="akuingin-footer-landingpageguest">
           <h1>Aku Ingin:</h1>
@@ -105,7 +121,7 @@ const Detailgymuser = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Detailgymuser;
+export default Detailgymuser
